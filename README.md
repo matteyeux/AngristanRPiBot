@@ -24,7 +24,7 @@ Replace all tokens in the scripts by yours
 # Bot
 To automatically tweet with the bot you can use [cron](https://en.wikipedia.org/wiki/Cron).
 
-eg: https://github.com/matteyeux/twython-s/blob/master/cron.
+eg: https://github.com/matteyeux/debian_bot/blob/master/cron.
 
 # How does it look ?
 
