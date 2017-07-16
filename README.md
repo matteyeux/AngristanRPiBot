@@ -1,10 +1,9 @@
 # twython-scripts
-Quelques scripts pour faire un bot Twitter en Python/Bash, sur un Raspberry Pi.
+Few scripts to make a bot with Python/Bash 
+## prerequisites
 
-## Pré-requis
-
-### Les paquets
-Voici comment installer les outils nécessaires :
+### Les packaqes
+Here is what you have to install on Debian/Ubuntu distros
 
 `sudo apt-get install python-setuptools python-dev libffi-dev libssl-dev python-pip`
 
@@ -14,27 +13,28 @@ Voici comment installer les outils nécessaires :
 
 
 ### L'API Twitter
-Vous devez vous connecter sur l'[Application Management](https://apps.twitter.com/app/new) de Twitter, avec le compte bot. Créez une application.
+You have to create an [Application Management](https://apps.twitter.com/app/new) on Twitter with the bot account.
 
-Ensuite, allez dans "Permissions" et mettez "Read and Write".
+Go to "Permissions" and set to "Read and Write".
 
-Dans "Keys and Access Tokens", générez un token.
+In "Keys and Access Tokens", generate a token.
 
-Dans les différents scripts python, rempacez les différents tokens et et clés par les votres (4 en tout).
-
-C'est bon, vous pouvez tweeter !
+Replace all tokens in the scripts by yours
 
 # Bot
-Pour faire un bot avec ces scripts, utilisez [cron](https://fr.wikipedia.org/wiki/Cron).
+To automatically tweet with the bot you can use [cron](https://en.wikipedia.org/wiki/Cron).
 
-Par exemple : https://github.com/Angristan/twython-scripts/blob/master/cron.
+eg: https://github.com/matteyeux/twython-s/blob/master/cron.
 
-# Ça donne quoi ?
+# How does it look ?
 
-J'ai mis tout ceci en application sur un Raspberry Pi. Vous pouvez le suivre : [@AngristanRPiBot](https://twitter.com/AngristanRPiBot/).
+Checkout [Debian Server](https://twitter.com/debian_server)
 
 Enjoy !
 
 ## Licence
 
-[The unlicense](https://github.com/Angristan/twython-scripts/blob/master/LICENSE) : do whatever you want with the code.
+[The unlicense](https://github.com/Angristan/twython-scripts/blob/master/LICENSE) : do whatever you want with the code. <br>
+
+All Credits go to [Angristan](https://github.com/Angristan). I just translated it an modified some stuff to work with my server.
+

@@ -31,14 +31,14 @@ def uptime():
 
      string = ""
      if days > 0:
-         string += str(days) + " " + (days == 1 and "jour" or "jours" ) + ", "
+         string += str(days) + " " + (days == 1 and "day" or "days" ) + ", "
      if len(string) > 0 or hours > 0:
-         string += str(hours) + " " + (hours == 1 and "heure" or "heures" ) + ", "
+         string += str(hours) + " " + (hours == 1 and "hour" or "hours" ) + ", "
      if len(string) > 0 or minutes > 0:
          string += str(minutes) + " " + (minutes == 1 and "minute" or "minutes" ) + " et "
-     string += str(seconds) + " " + (seconds == 1 and "seconde" or "secondes" )
+     string += str(seconds) + " " + (seconds == 1 and "second" or "seconds" )
 
      return string;
 
 print "The system uptime is:", uptime()
-api.update_status(status='Je suis allumé depuis '+uptime()+'.')
+api.update_status(status='The system uptime is: '+uptime()+'.')
