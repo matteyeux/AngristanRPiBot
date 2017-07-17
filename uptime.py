@@ -35,7 +35,7 @@ def uptime():
      if len(string) > 0 or hours > 0:
          string += str(hours) + " " + (hours == 1 and "hour" or "hours" ) + ", "
      if len(string) > 0 or minutes > 0:
-         string += str(minutes) + " " + (minutes == 1 and "minute" or "minutes" ) + " et "
+         string += str(minutes) + " " + (minutes == 1 and "minute" or "minutes" ) + " and "
      string += str(seconds) + " " + (seconds == 1 and "second" or "seconds" )
 
      return string;
